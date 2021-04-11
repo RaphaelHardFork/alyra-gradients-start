@@ -1,4 +1,4 @@
-export const gradients = [
+const gradients = [
   {
     name: "Grade Grey",
     start: "rgb(189, 195, 199)",
@@ -151,8 +151,11 @@ export const gradients = [
   },
 ]
 
+export default gradients
+
+/*
 function allTags(list) {
-  /* retourner la liste des tags uniques */
+  // retourner la liste des tags uniques
   let listTotal = []
   for (let element of list) {
     if ("tags" in element) {
@@ -170,3 +173,4 @@ function allTags(list) {
 }
 
 export const uniqueTags = allTags(gradients)
+*/
